@@ -58,6 +58,13 @@ There's a few options. Choose one, or just figure it out
 Depending on how you configure your project you may need to ``#import`` either
 ``<SocketRocket/SRWebSocket.h>`` or ``"SRWebSocket.h"``
 
+Cocoapods
+```````````````
+
+.. code-block:: objective-c
+
+  pod 'SocketRocket'
+
 Framework Dependencies
 ``````````````````````
 Your .app must be linked against the following frameworks/dylibs
@@ -105,7 +112,7 @@ What you need to know
   @property (nonatomic, assign) id <SRWebSocketDelegate> delegate;
 
   - (void)open;
-  
+
   // Close it with this
   - (void)close;
 
